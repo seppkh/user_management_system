@@ -1,4 +1,4 @@
-#User management system#
+# User management system
 
 Based on: https://www.youtube.com/watch?v=1aXZQcG2Y6I
 Video covered building a basic user management system with options to add, edit, delete and search users. I selected this video to practice building a similar system on my own.
@@ -12,7 +12,7 @@ Topics covered in video:
 - using routes and controllers
 - using Bootstrap for UI
 
-**Setup**
+## Setup
 Clone repository to local directory:
 ```
 mkdir user_management
@@ -20,7 +20,7 @@ cd user_management
 clone repository: git clone https://github.com/seppkh/user_management_system.git
 ```
 
-**Run program**
+## Run program
 1. Start Mysql and Apache web server on local computer
 2. Access database at https://localhost/phpmyadmin/
 3. Use queries from use-schema.sql to create database and table
@@ -29,10 +29,3 @@ clone repository: git clone https://github.com/seppkh/user_management_system.git
 npm start
 ```
 Program runs at http://localhost:5000/
-
-.env file:
-DB_HOST = localhost
-DB_NAME = usermanagement_node
-DB_USER = root
-DB_PASS =
-DB_PORT = 5000
