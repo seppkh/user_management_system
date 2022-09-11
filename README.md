@@ -23,7 +23,7 @@ clone repository: git clone https://github.com/seppkh/user_management_system.git
 ## Run program
 1. Start Mysql and Apache web server on local computer
 2. Access database at https://localhost/phpmyadmin/
-3. Use queries from use-schema.sql to create database and table
+3. Use queries from user-schema.sql to create database and table
 4. Start the project: 
 ```
 npm start
